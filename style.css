@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box; /*makes it easier to size elements*/
 }
 
 .clearfix:after {
@@ -36,6 +36,8 @@ h2 {
 
 .author-text {
 	font-size: 22px;
+	float: left;
+	margin-top: 30px;
 }
 
 .container {
@@ -47,6 +49,7 @@ h2 {
 	width: 75%;
 	float: left;
 	padding-right: 30px;
+	position: relative;
 }
 
 .other-posts {
@@ -57,4 +60,27 @@ h2 {
 .author-box {
 	padding-top: 20px;
 	border-top: 1px solid #61605d;
+}
+
+.other {
+	margin-bottom: 40px;
+}
+
+.author-box img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;/*made author's image circular*/
+	float: left;
+}
+
+.blog-post img {
+	height: 150px;
+	width: auto;
+}
+
+.date {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+
 }
