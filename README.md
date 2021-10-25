@@ -1,1 +1,3 @@
-Udemy course: Build Responsive Real World Websites with HTML5 and CSS3 by Jonas Schmedtmann. My first blog post project. 
+# My-First-Blog-Post
+
+This project is from Udemy course: Build Responsive Real World Websites with HTML5 and CSS3 by Jonas Schmedtmann. 
